@@ -8,7 +8,7 @@ public class CoffeeMakerDatabase {
     public CoffeeMakerDatabase(){
         try {
             // Establish a connection to the MySQL database
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/SE3313_20070006009?user=root&password=41135061528");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/SE3313_20070006009?user=root&password=yourpassword");
         } catch (SQLException e){
             e.printStackTrace();
         }
